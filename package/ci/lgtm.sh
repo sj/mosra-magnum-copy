@@ -2,7 +2,7 @@
 set -ev
 
 # Corrade
-wget -O corrade-master.zip https://github.com/mosra/corrade/archive/master.zip?bla=1536075193
+wget -O corrade-master.zip https://github.com/mosra/corrade/archive/master.zip?foobar=`time +%s`
 unzip corrade-master.zip
 
 # Build Corrade
