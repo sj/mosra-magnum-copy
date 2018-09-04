@@ -1,0 +1,9 @@
+extraction:
+  cpp:
+    configure:
+      command:
+        - echo "Not needed"
+    index:
+      build_command:
+        - package/ci/lgtm.sh
+
